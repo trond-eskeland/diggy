@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "git+ssh://git@github.com/equinor/react-diggy.git",
+      "/Users/anarki/dev/git/mad-countryinformation-web"
+    ]
+  ],
+  "_from": "git+ssh://git@github.com/equinor/react-diggy.git",
+  "_id": "react-diggy@git+ssh://git@github.com/equinor/react-diggy.git#d1d68e61378101583c0d1dcb33af0987d352457e",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-diggy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@github.com/equinor/react-diggy.git",
+    "rawSpec": "git+ssh://git@github.com/equinor/react-diggy.git",
+    "saveSpec": "git+ssh://git@github.com/equinor/react-diggy.git",
+    "fetchSpec": "ssh://git@github.com/equinor/react-diggy.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/equinor/react-diggy.git#d1d68e61378101583c0d1dcb33af0987d352457e",
+  "_spec": "git+ssh://git@github.com/equinor/react-diggy.git",
+  "_where": "/Users/anarki/dev/git/mad-countryinformation-web",
+  "author": {
+    "name": "Andreas Wik"
+  },
+  "bugs": {
+    "url": "https://github.com/andreaswikbouvet/react-diggy/issues"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  },
+  "description": "",
+  "devDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "homepage": "https://github.com/andreaswikbouvet/react-diggy#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-diggy",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaswikbouvet/react-diggy.git"
+  },
+  "scripts": {
+    "build": "npx babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
